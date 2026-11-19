@@ -1,0 +1,28 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - jwagantall
+      - thelinuxfoundation
+  - name: das-maintainers
+    maintainers:
+      - adovale-IOB
+      - kshitishb
+repositories:
+  - name: governance
+    teams:
+      lf-staff: maintain
+      das-maintainers: maintain
+    visibility: public
+  - name: .github
+    teams:
+      lf-staff: maintain
+      das-maintainers: maintain
+    visibility: public
+  - name: DAS-Interoperability
+    teams:
+      das-maintainers: maintain
+      lf-staff: maintain
+      das-admins: maintain
+    visibility: public
